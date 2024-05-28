@@ -1,0 +1,87 @@
+.FooterBar{
+    background-color: #001F3F;
+    position: relative;
+    top: 170px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ThanksHeading{
+    /* background-color: white; */
+    color: white;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.author{
+    margin-top: 20px;
+}
+
+.SocialMedia{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: white; */
+    position: relative;
+    right: 30px;
+}
+
+.SocialMedia a{
+    font-size: 40px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.SocialMedia a:hover{
+    transform: scale(1.4);
+}
+
+@media (max-width:900px) {
+    .ThanksHeading{
+        width: 600px;
+        height: 150px;
+    }
+    .SocialMedia a{
+        font-size: 36px;
+    }
+}
+
+@media (max-width:591px) {
+    
+
+    .SocialMedia a {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:459px) {
+
+
+    .SocialMedia a {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:404px) {
+
+
+    .SocialMedia a {
+        font-size: 20px;
+    }
+    .SocialMedia{
+        position: relative;
+        left: -3px;
+    }
+}
+
+

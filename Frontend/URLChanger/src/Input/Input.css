@@ -1,0 +1,35 @@
+.Mainbox{
+    height: 200px;
+    width: 500px;
+    /* background-color: aqua; */
+    position: relative;
+    left: 35%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mainbox input{
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.Mainbox button{
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.NewLink{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}

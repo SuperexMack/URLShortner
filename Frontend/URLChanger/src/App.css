@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    overflow-x: none;
+}
+
+.Main-Head{
+    position: relative;
+    left: 40%;
+    width: 400px;
+}
