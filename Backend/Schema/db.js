@@ -1,6 +1,5 @@
 const mongoose = require("mongoose")
 const Schema = mongoose.Schema
-const URL = "mongodb+srv://mack:06062003mohit@cluster0.qzjtknf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/MyBlogApp"
 
 main()
 .then(()=>{
