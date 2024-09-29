@@ -13,7 +13,6 @@ main()
 async function main(){
     await mongoose.connect(URL)
 }
-
 const URLschema = new Schema({
     InsertedUrl:{
         type:String,
